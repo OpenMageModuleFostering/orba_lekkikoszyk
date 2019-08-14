@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <lekkikoszyk translate="title" module="lekkikoszyk">
+                    <title>ORBA | LekkiKoszyk.pl</title>
+                    <children>
+                        <feed_url translate="title" module="lekkikoszyk">
+                            <title>Feed URLs</title>
+                            <action>lekkikoszyk/adminhtml_offer/urls</action>
+                        </feed_url>
+                        <config translate="title" module="lekkikoszyk">
+                            <title>Configuration</title>
+                            <action>adminhtml/system_config/edit/section/lekkikoszyk</action>
+                        </config>
+                    </children>
+                </lekkikoszyk>
+             </children>
+        </catalog>
+    </menu>
+</config>

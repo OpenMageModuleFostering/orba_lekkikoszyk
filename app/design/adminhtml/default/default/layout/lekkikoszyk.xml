@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <lekkikoszyk_adminhtml_offer_urls>
+        <reference name="content">
+            <block type="lekkikoszyk/admin_offer_urls" name="offer_urls" />
+        </reference>
+    </lekkikoszyk_adminhtml_offer_urls>
+</layout>

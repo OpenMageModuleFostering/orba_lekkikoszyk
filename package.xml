@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Orba_Lekkikoszyk</name>
+    <version>0.1.3</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/academic.php">Academic Free License (AFL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension integrates your store with LekkiKoszyk.pl platform.</summary>
+    <description>The extension allows you to generate XML feeds for LekkiKoszyk.pl platform.&#xD;
+&#xD;
+Modu&#x142; ten pozwala wygenerowa&#x107; feedy XML dla platformy LekkiKoszyk.pl.</description>
+    <notes>- Fixed problem with getting special price when special dates are defined</notes>
+    <authors><author><name>ORBA</name><user>orba</user><email>magento@orba.pl</email></author></authors>
+    <date>2014-11-04</date>
+    <time>14:42:33</time>
+    <contents><target name="magecommunity"><dir name="Orba"><dir name="Lekkikoszyk"><dir name="Block"><dir name="Admin"><dir name="Offer"><dir name="Urls"><file name="Grid.php" hash="61e678b9e5f677c7a76185085e02215e"/></dir><file name="Urls.php" hash="4489391ceb53c4f16f5383b0f3888369"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="12a52a0a8843ed123c007e553b884795"/></dir><dir name="Model"><file name="Attribute.php" hash="bf76897abe6be8dad5162f09e48b772c"/><dir name="Catalog"><file name="Category.php" hash="dd149db80b865a615d31f25b22432076"/></dir><file name="Config.php" hash="3ddedc5d8a69f75e60b4a2695bb27a13"/><dir name="Mysql4"><file name="Setup.php" hash="3a58e9187917481d89ad91dbdd8ba2c1"/></dir><file name="Product.php" hash="07d7ea13824b4e92099a925c4fd3c2c5"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="OfferController.php" hash="a4c2920bf1f4f71e19f337dd031b86b2"/></dir><file name="ProductsController.php" hash="93cab8563b357dcdb8228dde829378e9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="fba09367d6c847d292d657ccd6f4e188"/><file name="config.xml" hash="53bd87fd9af8457584f43a85aa1fbe7c"/><file name="system.xml" hash="e67afa7e5a1b3602dcb4d271e48914d6"/></dir><dir name="sql"><dir name="lekkikoszyk_setup"><file name="mysql4-install-0.1.0.php" hash="610ea4e4e41c983a527ba369b006f14d"/><file name="mysql4-upgrade-0.1.0-0.1.1.php" hash="2b12f2039ff5ccca809f15b4e8b44cc1"/><file name="mysql4-upgrade-0.1.1-0.1.2.php" hash="42628a7a1628fdd89803eb3aeb59e578"/><file name="mysql4-upgrade-0.1.2-0.1.3.php" hash="8d5ff9ce61e1ebed6dfe62eba0d89aca"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="lekkikoszyk"><dir name="offer"><file name="urls.phtml" hash="3cd208d4e518dfb592f98ac324d0fc49"/></dir></dir></dir><dir name="layout"><file name="lekkikoszyk.xml" hash="12dad4bb4caaa26acf9c7db215bbbc6d"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Orba_Lekkikoszyk.xml" hash="3c2aecfc87d8cef0c910e3e9b32d2009"/></dir></target><target name="magelocale"><dir name="pl_PL"><file name="Orba_Lekkikoszyk.csv" hash="3981ff00f15e514258664b7e7fb12a70"/></dir></target><target name="magelib"><dir name="Lekkikoszyk"><file name="simple_xml_extended.php" hash="1e72b54e04b09548dc3c7dd28500a05d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
