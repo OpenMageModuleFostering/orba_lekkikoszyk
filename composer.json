@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Orba_Lekkikoszyk",
+    "name": "OpenMageModuleFostering\/Orba_Lekkikoszyk",
     "type": "magento-module",
     "license": "Academic-Free-License-(AFL)",
     "homepage": "",
     "description": "The extension integrates your store with LekkiKoszyk.pl platform.",
     "authors": [
-    {
-        "name": "ORBA",
-        "email": "magento@orba.pl"
-    }
-],
+        {
+            "name": "ORBA",
+            "email": "magento@orba.pl"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
